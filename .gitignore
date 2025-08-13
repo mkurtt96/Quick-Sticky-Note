@@ -1,0 +1,68 @@
+# Build outputs
+bin/
+obj/
+
+# Rider / IntelliJ IDEA project files
+.idea/
+*.iml
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.csproj.user
+
+# Visual Studio cache and generated files
+.vs/
+*.pidb
+*.svd
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# NuGet
+*.nupkg
+packages/
+# (Uncomment below if using PackageReference)
+# !**/packages/build/
+
+# .NET
+project.lock.json
+project.fragment.lock.json
+artifacts/
+**/Properties/launchSettings.json
+
+# Build results
+*.exe
+*.dll
+*.pdb
+*.cache
+*.mdb
+
+# Publish outputs
+publish/
+app.publish/
+
+# Debug / Release folders
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# Test results
+TestResult*/
+*.VisualState.xml
+*.coverage
+*.coveragexml
+
+# Others
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
