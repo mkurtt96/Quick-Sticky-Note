@@ -1,4 +1,5 @@
 # Quick Sticky Note
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 A very simple sticky notes application stripped down to the bare minimum.
 
 I made this because my needs are very simple:
