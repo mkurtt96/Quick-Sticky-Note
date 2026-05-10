@@ -14,12 +14,13 @@ Right-click the desktop and use the context menu option for the .qnote file type
 
 This will:
 * Create a .qnote file in your %LOCALAPPDATA%\QuickSticky\ folder.
+
 * Open a sticky note window at your current cursor position.
 
 ## Closing a note
 The note stays open until you click the X three times.
 This safety measure avoids accidental closures.
-<img width="439" height="365" alt="image" src="https://github.com/user-attachments/assets/392dfc66-5ebb-4e6a-97d2-b4183d4658c1" />
+<img width="463" height="362" alt="image" src="https://github.com/user-attachments/assets/070f6e82-38ad-49fe-a5dc-f667ab79ea37" />
 
 When closed, the program will:
 * Delete the associated .qnote file.
