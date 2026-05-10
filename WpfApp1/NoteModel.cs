@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Runtime.InteropServices;
+using System.Windows;
 
 namespace QuickSticky
 {
     public class NoteModel
     {
+        public string Title { get; set; } = "";
         public string Content { get; set; } = "";
+
         public double Left { get; set; } = 100;
         public double Top { get; set; } = 100;
         public double Width { get; set; } = 300;
@@ -14,16 +17,32 @@ namespace QuickSticky
         public static NoteModel NewBlankAtCursor()
         {
             GetCursorPos(out var p);
+
+            double left = p.X - 30;
+            double top = p.Y - 30;
+
+            var screenWidth = SystemParameters.VirtualScreenWidth;
+            var screenHeight = SystemParameters.VirtualScreenHeight;
+
+            left = Math.Max(0, Math.Min(left, screenWidth - 100));
+            top = Math.Max(0, Math.Min(top, screenHeight - 100));
+
             return new NoteModel
             {
-                Left = p.X - 30,
-                Top = p.Y - 30
+                Left = left,
+                Top = top,
+                Title = ""
             };
         }
 
         [DllImport("user32.dll")]
         private static extern bool GetCursorPos(out POINT lpPoint);
+
         [StructLayout(LayoutKind.Sequential)]
-        private struct POINT { public int X; public int Y; }
+        private struct POINT
+        {
+            public int X;
+            public int Y;
+        }
     }
 }
