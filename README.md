@@ -10,7 +10,8 @@ Super simple, super easy setup.
 
 ## How it works
 Right-click the desktop and use the context menu option for the .qnote file type:
-<img width="519" height="425" alt="image" src="https://github.com/user-attachments/assets/f3da9100-b034-459d-bbd5-01f1fed8924c" />
+<img width="578" height="445" alt="image" src="https://github.com/user-attachments/assets/24d99865-4bd3-48f3-8f5c-dbff4548e3fe" />
+
 
 This will:
 * Create a .qnote file in your %LOCALAPPDATA%\QuickSticky\ folder.
