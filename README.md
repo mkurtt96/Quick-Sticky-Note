@@ -20,7 +20,8 @@ This will:
 ## Closing a note
 The note stays open until you click the X three times.
 This safety measure avoids accidental closures.
-<img width="463" height="362" alt="image" src="https://github.com/user-attachments/assets/070f6e82-38ad-49fe-a5dc-f667ab79ea37" />
+<img width="440" height="349" alt="image" src="https://github.com/user-attachments/assets/b11e2219-c9dd-44c6-a97b-c21bbc461766" />
+
 
 When closed, the program will:
 * Delete the associated .qnote file.
