@@ -25,7 +25,7 @@ This safety measure avoids accidental closures.
 
 When closed, the program will:
 * Delete the associated .qnote file.
-* Terminate the note process/thread.
+* Terminate the note process if it's the last note open.
 
 ## Startup behavior
 The installer sets the app to run on system startup.
