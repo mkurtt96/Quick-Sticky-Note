@@ -10,20 +10,23 @@ Super simple, super easy setup.
 
 ## How it works
 Right-click the desktop and use the context menu option for the .qnote file type:
-<img width="519" height="425" alt="image" src="https://github.com/user-attachments/assets/f3da9100-b034-459d-bbd5-01f1fed8924c" />
+<img width="578" height="445" alt="image" src="https://github.com/user-attachments/assets/24d99865-4bd3-48f3-8f5c-dbff4548e3fe" />
+
 
 This will:
 * Create a .qnote file in your %LOCALAPPDATA%\QuickSticky\ folder.
+
 * Open a sticky note window at your current cursor position.
 
 ## Closing a note
 The note stays open until you click the X three times.
 This safety measure avoids accidental closures.
-<img width="439" height="365" alt="image" src="https://github.com/user-attachments/assets/392dfc66-5ebb-4e6a-97d2-b4183d4658c1" />
+<img width="440" height="349" alt="image" src="https://github.com/user-attachments/assets/b11e2219-c9dd-44c6-a97b-c21bbc461766" />
+
 
 When closed, the program will:
 * Delete the associated .qnote file.
-* Terminate the note process/thread.
+* Terminate the note process if it's the last note open.
 
 ## Startup behavior
 The installer sets the app to run on system startup.
